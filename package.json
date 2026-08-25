@@ -1,0 +1,43 @@
+{
+  "name": "ai-disclosure-lexicon",
+  "version": "1.0.0",
+  "description": "Does this text say \"you are talking to an AI\"? A deterministic AI/bot-disclosure lexicon for the 24 official EU languages plus Catalan, with negation handling and cross-language homograph screening. Extracted from the DisclosureProof EU AI Act Article 50 scanner.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "docs/kill-list.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "eu-ai-act",
+    "article-50",
+    "ai-disclosure",
+    "transparency",
+    "chatbot",
+    "lexicon",
+    "multilingual",
+    "negation",
+    "compliance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwellmilan1234-prog/ai-disclosure-lexicon.git"
+  },
+  "homepage": "https://github.com/maxwellmilan1234-prog/ai-disclosure-lexicon#readme",
+  "bugs": {
+    "url": "https://github.com/maxwellmilan1234-prog/ai-disclosure-lexicon/issues"
+  },
+  "author": "DisclosureProof (https://disclosureproof.com)",
+  "license": "MIT"
+}
