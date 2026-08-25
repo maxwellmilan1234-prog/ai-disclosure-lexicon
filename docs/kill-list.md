@@ -84,7 +84,8 @@ a second distinct non-acronym low term.
   but the term slipped into the production scanner's shipped set anyway and was
   still there when this package was extracted. This package applies the recorded
   kill from 1.0.0 (with the *csapatunk* sentence as a regression test); the
-  production fix rides the scanner's next rule-pack version.
+  production fix shipped in the scanner's rule-pack 2026.08.2 (2026-08-25), so
+  the two sets are aligned again.
 - `robottal` — same lemma as `robot` counted as a distinct low: one robot-vacuum
   panel produces both.
 - `virtuális asszisztense` / `virtuális asszisztensünk` — base + possessive of one
