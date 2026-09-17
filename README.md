@@ -16,6 +16,14 @@ powered [The State of AI Disclosure 2026](https://disclosureproof.com/research/s
 false positive or false negative found in adversarial review or production — most
 of them listed below.
 
+## Install
+
+```
+npm install github:maxwellmilan1234-prog/ai-disclosure-lexicon
+```
+
+ESM, Node >= 20, zero dependencies.
+
 ```js
 import { assessDisclosure } from "ai-disclosure-lexicon";
 
